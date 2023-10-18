@@ -1,0 +1,692 @@
+    1  sudo vim .bashrc
+    2  sudo vim .bash_history 
+    3  gedit ArmJoint.msg
+    4  cd yahboomcar_ws/
+    5  catkin_make
+    6  source devel/setup.bash 
+    7  rosmsg show yahboomcar_msgs/ArmJoint 
+    8  cd yahboomcar_ws/
+    9  catkin_make
+   10  source devel/setup.bash 
+   11  roslaunch 01_HandCtrlArm.launch 
+   12  sudo gedit ./.bashrc 
+   13  roslaunch arm_mediapipe 01_HandCtrlArm.launch 
+   14  sudo gedit ./.bashrc 
+   15  source ./.bahsr
+   16  source ./.bashrc 
+   17  roslaunch arm_mediapipe 01_HandCtrlArm.launch 
+   18  cd yahboomcar_ws/
+   19  catkin_make
+   20  source devel/setup.bash 
+   21  roslaunch arm_mediapipe 01_HandCtrlArm.launch 
+   22  catkin_make
+   23  source devel/setup.bash 
+   24  roslaunch arm_mediapipe 01_HandCtrlArm.launch 
+   25  source devel/setup.bash 
+   26  catkin_make
+   27  roslaunch arm_mediapipe 01_HandCtrlArm.launch 
+   28  roslaunch arm_mediapipe 02_HandCtrlArm.launch 
+   29  roslaunch arm_mediapipe 02_PoseCtrlArm.launch 
+   30  gedit jjj
+   31  rosrun rqt_reconfigure rqt_reconfigure 
+   32  sudo gedit ./.bashrc 
+   33  source ./.bashrc 
+   34  rosrun rqt_reconfigure rqt_reconfigure 
+   35  roscore 
+   36  sudo gedit ./.bashrc 
+   37  source ./.bashrc 
+   38  roscore 
+   39  roslaunch arm_color_transport transport_rviz.launch 
+   40  roslaunch yahboomcar_nav view_navigate.launch 
+   41  rviz
+   42  roslaunch yahboomcar_nav view_navigate.launch 
+   43  rosrun rqt_reconfigure rqt_reconfigure 
+   44  sudo gedit ./.bashrc 
+   45  source ./.bashrc 
+   46  sudo vmware-uninstall-tools.pl 
+   47  sudo apt-get remove open-vm-tools
+   48  sudo apt-get remove --auto-remove open-vm-tools
+   49  sudo apt-get purge open-vm-tools
+   50  git clone https://github.com/rasa/vmware-tools-patches.git
+   51  git clone gits://github.com/rasa/vmware-tools-patches.git
+   52  git clone git://github.com/rasa/vmware-tools-patches.git
+   53  git clone https://github.com/rasa/vmware-tools-patches.git
+   54  reboot
+   55  sudo apt-get install open-vm-tools
+   56  sudo apt-get install open-vm-tools-desktop 
+   57  reboot
+   58  sudo chmod 777 *
+   59  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+   60  rosrun arm_moveit_demo 01_random_move.py
+   61  rosrun arm_moveit_demo 01_random_move
+   62  rosrun arm_moveit_demo 02_set_pose_plan.py
+   63  rosrun arm_moveit_demo 03_set_joint_plan
+   64  rosrun arm_moveit_demo 02_set_pose_plan.py
+   65  rosrun arm_moveit_demo 04_cartesian
+   66  rosrun arm_moveit_demo 05_attached_object
+   67  rosrun arm_moveit_demo 06_set_Scene.py
+   68  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+   69  rosrun arm_moveit_demo 06_multi_track_motion
+   70  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+   71  roscore 
+   72  rosrun move
+   73  rosrun moveit_setup_assistant moveit_setup_assistant
+   74  sudo apt-get install ros-melodic-trac-ik*
+   75  cd yahboomcar_ws/
+   76  catkin_make
+   77  source devel/setup.bash 
+   78  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+   79  rosnode list 
+   80  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+   81  cd yahboomcar_ws/
+   82  catkin_make
+   83  source devel/setup.bash 
+   84  rosnode info /SimulationToMachine 
+   85  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+   86  sudo gedit ./.bashrc 
+   87  source ./.bashrc 
+   88  roslaunch yahboomcar_nav view_map.launch 
+   89  source ./.bashrc 
+   90  sudo gedit ./.bashrc 
+   91  source ./.bashrc 
+   92  sudo gedit ./.bashrc 
+   93  roslaunch yahboomcar_nav view_map.launch 
+   94  rviz
+   95  roslaunch yahboomcar_nav view_map.launch 
+   96  roslaunch yahboomcar_nav view_navigate.launch 
+   97  crviz
+   98  rviz
+   99  rosrun rqt_reconfigure rqt_reconfigure 
+  100  catkin_make
+  101  source devel/setup.bash 
+  102  sudo gedit ./.bashrc 
+  103  source ./.bashrc 
+  104  rosrun rqt_reconfigure rqt_reconfigure 
+  105  catkin_init_workspace 
+  106  cd ..
+  107  catkin_make
+  108  sudo gedit ./.bashrc 
+  109  source ./.bashrc 
+  110  git clone https://github.com/YDLIDAR/YDLidar-SDK
+  111  git clone https://github.com/YDLIDAR/YDLidar-SDK.git
+  112  git clone https://github.com/YDLIDAR/YDLidar-SDK.gits
+  113  git clone git://github.com/YDLIDAR/YDLidar-SDK.git
+  114  git clone git://github.com/YDLIDAR/YDLidar-SDK
+  115  sudo apt-get install ros-melodic-y
+  116  roslaunch bringup.launch 
+  117  sudo chmod 777 *
+  118  cd ..
+  119  ls
+  120  cd launch/
+  121  ls
+  122  roslaunch bringup,
+  123  roslaunch bringup.launch 
+  124  catkin_make
+  125  roslaunch bringup,
+  126  roslaunch bringup.launch 
+  127  sudo gedit ./.bashrc 
+  128  source ./.bashrc 
+  129  roslaunch yahboomcar_bringup bringup.launch 
+  130  roslaunch bringup.launch 
+  131  sudo gedit ./.bashrc 
+  132  sudo gedit ./.bashrc 
+  133  source ./.bashrc 
+  134  roslaunch rplidar_ros rplidar.launch 
+  135  sudo gedit ./.bashrc 
+  136  source ./.bashrc 
+  137  roslaunch rplidar_ros rplidar.launch 
+  138  sudo gedit ./.bashrc 
+  139  source ./.bahr
+  140  source ./.bashrc 
+  141  roslaunch rplidar_ros rplidar.launch 
+  142  sudo gedit ./.bashrc 
+  143  source ./.bashrc 
+  144  roslaunch rplidar_ros rplidar_a3.launch 
+  145  roslaunch rplidar_ros rplidar.launch 
+  146  rviz
+  147  cmake ..
+  148  make
+  149  sudo make install
+  150  sudo gedit /etc/udev/rules.d/56-orbbec-usb.rules 
+  151  cd  /etc/udev/rules.d/
+  152  ls
+  153  sudo scp 56-orbbec-usb.rules yahboom@192.168.2.82:/home
+  154  sudo scp 56-orbbec-usb.rules yahboom@192.168.2.82:/home/driver_ws
+  155  sudo scp 56-orbbec-usb.rules yahboom@192.168.2.82:/home
+  156  scp 56-orbbec-usb.rules yahboom@192.168.2.82:/home
+  157  scp 56-orbbec-usb.rules 192.168.2.82@yahboom:/home
+  158  sudo cp 56-orbbec-usb.rules /home
+  159  scp 56-orbbec-usb.rules 192.168.2.82@yahboom:/home/yahboom
+  160  scp 56-orbbec-usb.rules yahboom@192.168.2.82:/home/yahboom
+  161  ls
+  162  sudo scp 558-orbbec-usb.rules  yahboom@192.168.2.82:/etc/udev/rules.d
+  163  sudo scp 558-orbbec-usb.rules  yahboom@192.168.2.82:/home/yahboom
+  164  sudo scp rplidar.rules   yahboom@192.168.2.82:/home/yahboom
+  165  sudo gedit ./.bahshrc
+  166  sudo gedit ./.bashrc 
+  167  source ./.bashrc 
+  168  roslaunch arm_color_transport transport_rviz.launch 
+  169  roslaunch arm_mediapipe 01_HandCtrlArm.launch
+  170  sudo chmod 777 *
+  171  roslaunch arm_mediapipe 01_HandCtrlArm.launch
+  172  cd yahboomcar_ws/
+  173  catkin_make
+  174  source devel/setup.bash 
+  175  roslaunch arm_mediapipe 01_HandCtrlArm.launch
+  176  roslaunch arm_mediapipe 02_PoseCtrlArm.launch
+  177  roslaunch arm_color_transport transport_rviz.launch
+  178  pwd
+  179  su
+  180  sudo gedit ./.bashrc 
+  181  rosrun rqt_reconfigure rqt_reconfigure
+  182  roslaunch arm_color_transport transport_rviz.launch
+  183  rosrun rqt_reconfigure rqt_reconfigure
+  184  python ArmCtrl.py 
+  185  source ~/.bashrc 
+  186  python ArmCtrl.py 
+  187  catkin_make
+  188  python3 ArmCtrl.py 
+  189  python ArmCtrl.py 
+  190  rosrun arm_mediapipe ArmCtrl.py 
+  191  sudo gedit ./.bashrc 
+  192  source ./.bashrc 
+  193  ll /dev/video
+  194  ll /dev/vide1
+  195  rosrun arm_mediapipe ArmCtrl.py 
+  196  rosrun arm_mediapipe 01_HandCtrlArm.py 
+  197  cd yahboomcar_ws/
+  198  catkin_make
+  199  source devel/setup.bash 
+  200  rosrun arm_mediapipe 01_HandCtrlArm.py 
+  201  rosrun arm_mediapipe RobotCtrl.py 
+  202  rosrun arm_mediapipe ArmCtrl.py 
+  203  rosrun arm_mediapipe RobotCtrl.py 
+  204  rosrun arm_mediapipe PoseArm.py 
+  205  sudo gedit ./.bashrc 
+  206  rviz
+  207  sudo gedit ./.bashrc 
+  208  source ./.bashrc 
+  209  roslaunch yahboomcar_description display.launch 
+  210  roscore 
+  211  ifconfig 
+  212  sudo gedit ./.bashrc 
+  213  roslaunch arm_color_transport transport_rviz.launch 
+  214  ifconfig 
+  215  sudo scp ArmCtrl.py jetson@192.168.2.87:/home/jetson
+  216  sudo scp HandCtrl.py .py jetson@192.168.2.87:/home/jetson
+  217  sudo scp HandCtrl.pyjetson@192.168.2.87:/home/jetson
+  218  sudo scp HandCtrl.py jetson@192.168.2.87:/home/jetson
+  219  sudo scp PoseArm.py  jetson@192.168.2.87:/home/jetson
+  220  sudo scp RobotCtrl.py  jetson@192.168.2.87:/home/jetson
+  221  sudo gedit ./.bashrc 
+  222  source ./.bashrc 
+  223  rosrun rqt_reconfigure rqt_reconfigure
+  224  gedit bk
+  225  python bk.py 
+  226  python
+  227  sudo python3 -m pip install utils
+  228  python bk.py 
+  229  ll /dev/video
+  230  ll /dev/video0
+  231  ll /dev/video1
+  232  rosrun arm_mediapipe ArmCtrl.py
+  233  cd yahboomcar_ws/
+  234  catkin_make
+  235  source devel/setup.bash 
+  236  catkin_make
+  237  rosrun arm_mediapipe ArmCtrl.py
+  238  rosrun arm_mediapipe HandCtrl.py
+  239  catkin_make
+  240  source devel/setup.bash 
+  241  rosrun arm_mediapipe HandCtrl.py
+  242  rosrun arm_mediapipe ArmCtrl.py 
+  243  rosrun arm_mediapipe ArmCtrl.py
+  244  cd yahboomcar_ws/
+  245  catkin_make
+  246  source devel/setup.bash 
+  247  rosrun arm_mediapipe ArmCtrl.py
+  248  cd yahboomcar_ws/
+  249  catkin_make
+  250  source devel/setup.bash 
+  251  rosrun arm_mediapipe ArmCtrl.py
+  252  rosrun arm_mediapipe HandCtrl.py 
+  253  rosrun arm_mediapipe HandCtrl.py
+  254  rosrun arm_mediapipe PoseArm.py
+  255  rosrun arm_mediapipe RobotCtrl.py
+  256  roslaunch arm_color_transport transport_rviz.launch
+  257  rosrun arm_mediapipe RobotCtrl.py
+  258  cd yahboomcar_ws/
+  259  catkin_make
+  260  rosrun arm_mediapipe RobotCtrl.py
+  261  source devel/setup.bash 
+  262  rosrun arm_mediapipe RobotCtrl.py
+  263  rosrun arm_mediapipe HandCtrl.py
+  264  rosrun arm_mediapipe RobotCtrl.py
+  265  rosrun arm_mediapipe HandCtrl.py
+  266  rosrun arm_mediapipe ArmCtrl.py
+  267  sudo gedit ./.bashrc 
+  268  source ./.bashrc 
+  269  roslaunch arm_color_transport transport_rviz.launch
+  270  sudo gedit ./.bashrc 
+  271  roslaunch lidar.launch 
+  272  roslaunch TG.launch 
+  273  roslaunch T15.launch 
+  274  roslaunch G1.launch 
+  275  roslaunch G2.launch 
+  276  lsusb
+  277  sudo gedit /etc/udev/rules.d/
+  278  sudo gedit /etc/udev/rules.d/rplidar.rules 
+  279  lsusb
+  280  roslaunch G1.launch 
+  281  roslaunch G2.launch 
+  282  roslaunch lidar.launch 
+  283  roslaunch T15.launch 
+  284  roslaunch TG.launch 
+  285  roslaunch X2.launch 
+  286  roslaunch TX.launch 
+  287  roslaunch TG.launch 
+  288  roslaunch T15.launch 
+  289  roslaunch TG.launch 
+  290  sudo udevadm trigger 
+  291  rviz
+  292  sudo reboot
+  293  roslaunch TG.launch 
+  294  rviz
+  295  rostopic list 
+  296  roslaunch TG.launch 
+  297  rostopic list 
+  298  sudo gedit ./.bashrc 
+  299  source ./.bashrc 
+  300  roslaunch arm_color_transport transport_rviz.launch
+  301  rviz
+  302  roslaunch arm_color_transport transport_rviz.launch
+  303  rostopic echo /voltage 
+  304  rostopic list 
+  305  rostopic echo /scan 
+  306  rviz
+  307  rostopic echo /scan 
+  308  rostopic echo /voltage 
+  309  sudo gedit ./.bashrc 
+  310  source ./.bashrc 
+  311  roslaunch arm_color_transport transport_rviz.launch
+  312  cmake ..
+  313  make
+  314  sudo make install
+  315  catkin_make
+  316  roslaunch ydlidar_ros_driver X2.launch 
+  317  ll /dev/ttyUSB*
+  318  roslaunch ydlidar_ros_driver X2.launch 
+  319  source ./.bashrc 
+  320  roslaunch ydlidar_ros_driver X2.launch 
+  321  source ./.bashrc 
+  322  roslaunch ydlidar_ros_driver X2.launch \
+  323  roslaunch ydlidar_ros_driver X2.launch 
+  324  sudo chmod 777 *
+  325  cmake ..
+  326  make
+  327  sudo make install
+  328  roslaunch ydlidar_ros_driver X2.launch 
+  329  catkin_make
+  330  source devel/setup.bash 
+  331  roslaunch ydlidar_ros_driver X2.launch 
+  332  catkin_make
+  333  source devel/setup.bash 
+  334  roslaunch ydlidar_ros_driver X2.launch 
+  335  sudo gedit ./.bashrc 
+  336  rosrun rqt_reconfigure rqt_reconfigure 
+  337  roslaunch transbot_bringup calibrate_linear.launch
+  338  rosrun rqt_reconfigure rqt_reconfigure
+  339  rosrun rqt_reconfigure rqt_reconfigure 
+  340  sudo gedit ./.bashrc 
+  341  sudo gedit ./.bahsr
+  342  sudo gedit ./.bashrc
+  343  sudo gedit ./.bashrc 
+  344  source ./.bashrc 
+  345  rosrun arm_mediapipe FingerCtrl.py
+  346  cd yahboomcar_ws/
+  347  catkin_make
+  348  source devel/setup.bash 
+  349  rosrun arm_mediapipe FingerCtrl.py
+  350  gedit arm
+  351  sudo chmod 777 *
+  352  pwd
+  353  gedit arm_library.py
+  354  sudo gedit ./.bashrc 
+  355  source ./.bashrc 
+  356  rosrun arm_mediapipe PoseArm.py
+  357  cd yahboomcar_ws/
+  358  rosrun arm_mediapipe PoseArm.py
+  359  catkin_make
+  360  source ./.bashr
+  361  source devel/setup.bash 
+  362  rosrun arm_mediapipe PoseArm.py
+  363  roslaunch arm_mediapipe MediaArm.launch
+  364  rosrun arm_mediapipe FingerCtrl.py
+  365  rosrun arm_mediapipe PoseArm.py
+  366  roslaunch arm_color_transport transport_rviz.launch
+  367  sudo gedit ./.bashrc 
+  368  source ./.bashrc 
+  369  roslaunch arm_color_transport transport_rviz.launch
+  370  sudo gedit ./.bahsr
+  371  sudo gedit ./.bashrc 
+  372  source ./.bashrc 
+  373  roslaunch arm_color_transport transport_rviz.launch
+  374  roslaunch arm_color_transport transport_rviz.launch\
+  375  roslaunch arm_color_transport transport_rviz.launch
+  376  rostopic list 
+  377  rostopic echo /scan 
+  378  sudo gedit ./.bashrc 
+  379  roslaunch arm_color_transport transport_rviz.launch
+  380  python3 RobotCtrl.py 
+  381  rostopic list 
+  382  rosnode list 
+  383  rosnode info /move_base 
+  384  pwd
+  385  cd yahboomcar_ws/
+  386  catkin_make
+  387  source devel/setup.bash 
+  388  rosrun arm_mediapipe RobotCtrl.py 
+  389  rosrun arm_mediapipe FingerCtrl.py 
+  390  rqt_graph
+  391  ls
+  392  pwd
+  393  cd yahboomcar_ws/
+  394  catkin_make
+  395  source devel/setup.bash 
+  396  rosrun arm_mediapipe HandCtrl.py
+  397  rosrun arm_mediapipe ArmCtrl.py
+  398  sudo gedit ./.bashrc 
+  399  source ./.bashrc 
+  400  rosrun arm_mediapipe ArmCtrl.py
+  401  cd yahboomcar_ws/
+  402  catkin_make
+  403  source devel/setup.bash 
+  404  rosrun arm_mediapipe ArmCtrl.py
+  405  sudo gedit ./.bashrc 
+  406  source ./.bashrc 
+  407  cd yahboomcar_ws/
+  408  catkin_make
+  409  rosrun arm_mediapipe PoseArm.py
+  410  source devel/setup.bash 
+  411  rosrun arm_mediapipe PoseArm.py
+  412  catkin_make
+  413  cd ..
+  414  catkin_make
+  415  sudo apt install ros-melodic-driver-base 
+  416  catkin_make
+  417  sudo gedit ./.bashrc 
+  418  roslaunch yahboomcar_astra colorHSV.launch
+  419  sudo chmod 777
+  420  sudo chmod 777 *
+  421  roslaunch yahboomcar_linefollw line.launch
+  422  roslaunch yahboomcar_nav view_map.launch
+  423  roslaunch yahboomcar_nav view_rtabmap.launch
+  424  roslaunch yahboomcar_nav view_rtabmap_nav.launch
+  425  rosrun rqt_reconfigure rqt_reconfigure 
+  426  rosrun rqt_graph rqt_graph 
+  427  rosrun rqt_reconfigure rqt_reconfigure 
+  428  roslaunch yahboomcar_slam view_orb_octomap.launch
+  429  rviz
+  430  rostopic list 
+  431  rosrun rqt_reconfigure rqt_reconfigure 
+  432  rviz
+  433  sudo gedit ./.bashrc 
+  434  source ./.bashrc 
+  435  rosrun rqt_reconfigure rqt_reconfigure 
+  436  sudo gedit ./.bashrc 
+  437  rosrun rqt_reconfigure rqt_reconfigure 
+  438  sudo gedit ./.bashrc 
+  439  source ./.bashrc 
+  440  rosrun rqt_reconfigure rqt_reconfigure 
+  441  sudo gedit ./.bashrc 
+  442  rosrun rqt_reconfigure rqt_reconfigure 
+  443  sudo gedit ./.bashrc 
+  444  source ./.bashrc 
+  445  rviz
+  446  rosrun rqt_reconfigure rqt_reconfigure 
+  447  rostopic echo /scan 
+  448  rviz
+  449  source ./.bashrc 
+  450  sudo gedit ./.bashrc 
+  451  source ./.bashrc 
+  452  ifconfig 
+  453  rviz 
+  454  sudo gedit ./.bashrc 
+  455  source ./.bashrc 
+  456  rviz 
+  457  rosrun rqt_reconfigure rqt_reconfigure 
+  458  rviz 
+  459  sudo gedit ./.bashrc 
+  460  rosrun rqt_reconfigure rqt_reconfigure 
+  461  sudo gedit ./.bashrc 
+  462  roslaunch yahboomcar_multi joy_multi.launch
+  463  cd yahboomcar_ws/
+  464  catkin_make
+  465  source devel/setup.bash 
+  466  roslaunch yahboomcar_multi joy_multi.launch
+  467  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  468  sudo chmod 777 *
+  469  sudo scp yahboomcar_X3plus.urdf.xacro jetson@192.168.2.118:~/yahboomcar_ws/
+  470  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  471  roscore
+  472  rosrun rqt_tf_tree rqt_tf_tree 
+  473  sudo gedit ./.bashrc 
+  474  roscore 
+  475  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  476  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+  477  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  478  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+  479  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  480  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false use_gui:=true
+  481  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  482  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+  483  roscore 
+  484  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  485  rosrun rqt_graph rqt_graph 
+  486  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  487  rosrun rqt_tf_tree rqt_tf_tree 
+  488  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  489  roscreate-pkg 
+  490  roscore 
+  491  rosrun arm_moveit_demo 04_cartesian
+  492  rosrun arm_moveit_demo 04_cartesian
+  493  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  494  rosrun arm_moveit_demo 04_cartesian
+  495  cd yahboomcar_ws/
+  496  catkin_make
+  497  rosrun arm_moveit_demo 04_cartesian
+  498  catkin_make
+  499  source devel/setup.bash 
+  500  rosrun arm_moveit_demo 04_cartesian
+  501  catkin_make
+  502  source devel/setup.bash 
+  503  rosrun arm_moveit_demo 04_cartesian
+  504  cd yahboomcar_ws/
+  505  catkin_make
+  506  source devel/setup.bash 
+  507  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  508  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+  509  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  510  rosrun arm_moveit_demo 04_cartesian
+  511  sudo apt-get install ros-melodic-trac-ik-kinematics-plugin
+  512  dpkg -l | grep trac-ik
+  513  rosrun arm_moveit_demo 04_cartesian.py 
+  514  rosrun arm_moveit_demo 04_cartesian
+  515  cd yahboomcar_ws/
+  516  catkin_make
+  517  source devel/setup.bash 
+  518  rosrun arm_moveit_demo 04_cartesian
+  519  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  520  sudo apt-get install ros-melodic--trac-ik
+  521  sudo apt-get install ros-melodic-trac-ik
+  522  sudo apt-get install ros-melodic-mov
+  523  sudo apt-get install ros-melodic-moveit*
+  524  sudo apt-get install ros-melodic-moveit-ros-*
+  525  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  526  rosrun arm_moveit_demo 04_cartesian
+  527  catkin_make
+  528  source devel/setup.
+  529  source devel/setup.bash 
+  530  catkin_make
+  531  source devel/setup.bash 
+  532  roscore 
+  533  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  534  rosrun arm_moveit_demo 04_cartesian
+  535  cd yahboomcar_ws/
+  536  catkin_make
+  537  source devel/setup.bash 
+  538  rosrun arm_moveit_demo 04_cartesian
+  539  sudo apt-get install ros-melodic-move
+  540  sudo apt-get install ros-melodic-moveit-r
+  541  sudo apt-get install ros-melodic-moveit-ros-move-group*
+  542  sudo apt-get install ros-melodic-moveit-ros-*
+  543  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  544  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  545  sudo apt-get upgrade
+  546  rosrun moveit_setup_assistant moveit_setup_assistant
+  547  roscore
+  548  sudo apt-get install ros-melodic-trac-ik*
+  549  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  550  roscore
+  551  rosrun moveit_setup_assistant moveit_setup_assistant
+  552  cd yahboomcar_ws/
+  553  catkin_make
+  554  source devel/setup.bash 
+  555  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  556  rosrun arm_moveit_demo 04_cartesian
+  557  sudo apt-get upgrade 
+  558  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=true
+  559  rosrun arm_moveit_demo 04_cartesian.py 
+  560  cd yahboomcar_ws/
+  561  catkin_make
+  562  source devel/setup.bash 
+  563  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  564  rosrun arm_moveit_demo 04_cartesian
+  565  wheris libmoveit_move_group_interface.so.1.0.9
+  566  whereis libmoveit_move_group_interface.so.1.0.9
+  567  catkin_make
+  568  source devel/setup.bash 
+  569  rosrun arm_moveit_demo 04_cartesian
+  570  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  571  sudo gedit ./.bashrc 
+  572  roscore 
+  573  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  574  roslaunch yahboomcar_multi tf_queuebroad.launch use_rviz:=true map:=my_map
+  575  roslaunch yahboomcar_multi tf_roundbroad.launch use_rviz:=true map:=my_map
+  576  sudo gedit ./.bashrc 
+  577  df -h
+  578  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  579  rosrun arm_moveit_demo test_set_pose.py 
+  580  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  581  rosrun arm_moveit_demo 03_set_joint_plan.py 
+  582  rosrun arm_moveit_demo test_set_pose.py 
+  583  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  584  rosrun arm_moveit_demo 04_cartesian
+  585  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  586  sudo gedit ./.bahsr
+  587  sudo gedit ./.bashrc 
+  588  source ./.bahsr
+  589  source ./.bashrc 
+  590  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  591  roslaunch arm_moveit_demo x3plus_moveit_demo.launch sim:=false
+  592  roslaunch yahboomcar_nav view_navigate.launch 
+  593  roslaunch yahboomcar_nav view_rtabmap.launch 
+  594  sudo gedit ./.bashrc 
+  595  roscore 
+  596  roslaunch yahboomcar_multi yahboomcar_nav_multi.launch use_rviz:=true map:=my_map
+  597  rostopic list 
+  598  roscore 
+  599  rosrun arm_moveit_demo test_set_pose.py 
+  600  rostopic echo /joint_states
+  601  rostopic info /joint_states 
+  602  rostopic echo /move_group/result
+  603  rostopic echo /move_group/goal /
+  604  rostopic echo /move_group/goal 
+  605  rostopic info /move_group/goal 
+  606  rosrun arm_moveit_demo test_set_pose.py 
+  607  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  608  rosrun arm_moveit_demo 02_set_pose_plan
+  609  rosrun arm_moveit_demo test_set_pose.py 
+  610  sudo gedit ./.bashrc 
+  611  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  612  rosrun arm_moveit_demo 02_set_pose_plan
+  613  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  614  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  615  rosrun arm_moveit_demo 02_set_pose_plan.
+  616  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  617  rosmsg show geometry_msgs/Pose
+  618  rosmsg show geometry_msgs/PoseStamped 
+  619  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  620  rosmsg show geometry_msgs/PoseStamped 
+  621  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  622  rosmsg show geometry_msgs/PoseStamped 
+  623  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  624  rosmsg show geometry_msgs/PoseStamped 
+  625  rosmsg show geometry_msgs/PoseStamped \
+  626  rosrun arm_moveit_demo 02_set_pose_plan.py 
+  627  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  628  rosrun arm_moveit_demo test_set_pose.py 
+  629  source ./.bashrc 
+  630  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  631  rosrun arm_moveit_demo test_set_pose.py 
+  632  sudo gedit ./.bashrc 
+  633  source ./.bashrc 
+  634  roslaunch yahboomcar_nav view_map.launch 
+  635  rosnode list 
+  636  rosnode info /slam_karto
+  637  rostopic info /map
+  638  rostopic list 
+  639  rosrun rqt_tf_tree rqt_tf_tree 
+  640  sudo gedit ./.bashrc 
+  641  source ./.bahsr
+  642  source ./.bashrc 
+  643  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  644  rosrun arm_moveit_demo test_set_pose.py 
+  645  sudo gedit ./.bashrc 
+  646  source ./.bashrc 
+  647  roslaunch yahboomcar_nav view_map.launch
+  648  sudo gedit ./.bashrc 
+  649  roslaunch yahboomcar_nav view_map.launch
+  650  rviz
+  651  roslaunch yahboomcar_nav view_map.launch 
+  652  sudo gedit ./.bashrc 
+  653  source ./.bahsr
+  654  source ./.bashrc 
+  655  rosrun arm_moveit_demo 06_multi_track_motion
+  656  rosrun arm_moveit_demo 06_set_Scene.py 
+  657  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  658  rosrun arm_moveit_demo 06_set_Scene.py 
+  659  roslaunch arm_color_transport transport_rviz.launch
+  660  roslaunch yahboomcar_nav view_navigate.launch
+  661  df -h
+  662  sudo gedit ./.bashrc 
+  663  roslaunch yahboomcar_nav view_navigate.launch 
+  664  sudo gedit ./.bashrc 
+  665  source ./.bashrc 
+  666  history
+  667  history 
+  668  history -a 
+  669  history
+  670  df -h
+  671  ll
+  672  cd yahboomcar_ws/
+  673  ll
+  674  cd src
+  675  ll
+  676  cd
+  677  roslaunch arm_moveit_demo x3plus_moveit_demo.launch 
+  678  ll
+  679  cd yahboomcar_ws/src/
+  680  ll
+  681  git config --global -e
+  682  git init
+  683  git checkout -b yahboomcar
+  684  git add .
+  685  git status
+  686  git commit -m "Added X3PLUS packages"
+  687  git status
+  688  git remote add origin https://github.com/rivascf/yahboom-dofbot.git
+  689  git push -u origin yahboomcar
+  690  history
+  691  mkdir docs
+  692  history >> ./docs/yahboomcar_history_181023.txt
