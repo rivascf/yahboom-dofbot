@@ -1,0 +1,216 @@
+    1  sudo apt install ros-melodic-desktop-full
+    2  clear
+    3  sudo apt install ros-melodic-desktop-full
+    4  clear
+    5  sudo apt install ros-melodic-desktop-full
+    6  clear
+    7  sudo apt install ros-melodic-desktop-full
+    8  sudo cp libdofbot_kinemarics.so /usr/lib
+    9  source devel/setup.bash 
+   10  clear
+   11  sudo apt install ros-melodic-desktop-full
+   12  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   13  source ~/.bashrc
+   14  source /opt/ros/melodic/setup.bash
+   15  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+   16  sudo apt install python-rosdep
+   17  sudo gedit /etc/hosts
+   18  sudo rosdep init
+   19  rosdep update
+   20  clear
+   21  sudo apt-add-repository ppa:apt-fast/stable
+   22  sudo apt-get update
+   23  sudo apt-get install apt-fast
+   24  sudo apt-fast install ros-melodic-moveit
+   25  sudo apt install fcitx-bin
+   26  sudo apt-get install fcitx-table
+   27  sudo dpkg -i sogoupinyin_2.4.0.2942_amd64.deb 
+   28  sudo apt-get install -f
+   29  sudo dpkg -i sogoupinyin_2.4.0.2942_amd64.deb 
+   30  sudo apt install ros-melodic-moveit
+   31  sudo apt-fast install ros-melodic-moveit-visual-tools
+   32  sudo apt-fast install ros-melodic-kdl-*
+   33  source /opt/ros/melodic/setup.bash
+   34  sudo apt-fast install ros-melodic-moveit-resources
+   35  sudo apt install ros-melodic-moveit-resources
+   36  sudo apt-get install ros-melodic-joint-state-publisher-gui   
+   37  sudo apt-get install liborocos-kdl-dev
+   38  sudo apt-get install libboost-dev
+   39  sudo apt-get install libkdl-parser-dev 
+   40  rosdep install kdl_parser
+   41  rosmake kdl_parser
+   42  sudo apt-get install ros-melodic-trac-ik
+   43  sudo apt update
+   44  sudo apt upgrade
+   45  clear
+   46  cd dofbot_ws/
+   47  catkin_make
+   48  clear
+   49  source devel/setup.bash 
+   50  roslaunch dofbot_config demo.launch 
+   51  udo apt install ros-melodic-desktop-full
+   52  source devel/setup.bash 
+   53  rosrun rviz rviz 
+   54  rosrun turtlesim turtle_teleop_key 
+   55  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   56  sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+   57  sudo apt update
+   58  sudo apt upgrade
+   59  sudo apt dist-upgrade
+   60  sudo apt install ros-melodic-desktop-full
+   61  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   62  source ~/.bashrc
+   63  source /opt/ros/melodic/setup.bash
+   64  echo "source /opt/ros/melodic/setup.zsh" >> ~/.zshrc
+   65  source ~/.zshrc
+   66  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+   67  sudo rosdep init
+   68  sudo rm /etc/ros/rosdep/sources.list.d/20-default.list
+   69  sudo rosdep init
+   70  rosdep update
+   71  clear
+   72  cd dofbot_ws/
+   73  catkin_make
+   74  source devel/setup.bash 
+   75  roslaunch dofbot_config demo.launch 
+   76  catkin_make
+   77  source devel/setup.bash 
+   78  roslaunch dofbot_config demo.launch 
+   79  rosrun turtlesim turtlesim_node 
+   80  roscore
+   81  sudo rm -r build/ devel/
+   82  catkin_make
+   83  source devel/setup.bash 
+   84  roslaunch dofbot_config demo.launch 
+   85  ls
+   86  catkin_make
+   87  source devel/setup.bash 
+   88  roslaunch dofbot_config demo.launch 
+   89  cd dofbot_ws/
+   90  source devel/setup.bash 
+   91  roslaunch dofbot_config demo.launch 
+   92  source devel/setup.bash 
+   93  rosrun dofbot_moveit 02_motion_plan
+   94  rosrun dofbot_moveit 02_motion_plan.py 
+   95  clear
+   96  rosrun dofbot_moveit 02_motion_plan
+   97  catkin_make
+   98  source devel/setup.bash 
+   99  rosrun dofbot_moveit 02_motion_plan
+  100  cleaer
+  101  clear
+  102  rosrun dofbot_moveit 03_attached_object
+  103  catkin_make
+  104  source devel/setup.bash 
+  105  rosrun dofbot_moveit 03_attached_object
+  106  cd dofbot_ws/
+  107  roslaunch dofbot_config demo.launch 
+  108  clear
+  109  sudo apt-get upgrade
+  110  sudo apt-get dist-upgrade
+  111  sudo add-apt-repository ppa:notepadqq-team/notepadqq 
+  112  sudo apt-get update
+  113  sudo apt-get install notepadqq
+  114  sudo apt upgrade
+  115  cd dofbot_ws/
+  116  cd dofbot_ws/
+  117  rosrun dofbot_moveit 01_set_move.py 
+  118  rosrun dofbot_moveit 01_random_move 
+  119  rosrun dofbot_moveit 02_motion_plan
+  120  rosrun dofbot_moveit 02_motion_plan.py 
+  121  clear
+  122  rosrun dofbot_moveit 02_motion_plan.py 
+  123  rosrun moveit_setup_assistant moveit_setup_assistant 
+  124  rosrun dofbot_moveit 02_motion_plan
+  125  rosrun dofbot_moveit 02_motion_plan.py 
+  126  clear
+  127  rosrun dofbot_moveit 03_attached_object
+  128  rosrun dofbot_moveit 03_attached_object.py 
+  129  clear
+  130  rosrun dofbot_moveit 03_attached_object
+  131  rosrun dofbot_moveit 01_random_move 
+  132  rosrun dofbot_moveit 01_set_move.py 
+  133  cd dofbot_ws/
+  134  roslaunch dofbot_config demo.launch 
+  135  rosrun moveit_setup_assistant moveit_setup_assistant 
+  136  catkin_make
+  137  source devel/setup.bash 
+  138  rosrun moveit_setup_assistant moveit_setup_assistant 
+  139  roslaunch dofbot_config demo.launch 
+  140  catkin_make
+  141  source devel/setup.bash 
+  142  roslaunch dofbot_config demo.launch 
+  143  clear
+  144  roslaunch dofbot_config demo.launch 
+  145  clear
+  146  cd
+  147  roscore
+  148  cd dofbot_ws/
+  149  roslaunch dofbot_config demo.launch 
+  150  cd dofbot_ws/
+  151  rosrun dofbot_moveit 04_Set_Scene.py 
+  152  sudo apt upgrade
+  153  cd dofbot_ws/
+  154  source devel/setup.bash 
+  155  roslaunch
+  156  roslaunch dofbot_config demo.launch 
+  157  catkin_make
+  158  source devel/setup.bash 
+  159  rosrun dofbot_moveit 01_set_move.py 
+  160  rosrun dofbot_moveit 01_random_move 
+  161  rosrun dofbot_moveit 02_motion_plan
+  162  rosrun dofbot_moveit 02_motion_plan.py 
+  163  rosrun dofbot_moveit 03_attached_object.py 
+  164  rosrun dofbot_moveit 03_attached_object
+  165  rosrun dofbot_moveit 04_Set_Scene.py 
+  166  rosrun dofbot_moveit dofbot_kinematics_fk 
+  167  rosrun dofbot_moveit dofbot_kinematics_ik
+  168  rosrun dofbot_moveit dofbot_kinematics_fk 
+  169  catkin_make
+  170  source devel/setup.bash 
+  171  rosrun dofbot_moveit dofbot_kinematics_fk 
+  172  rosrun dofbot_moveit dofbot_kinematics_ik
+  173  rosrun dofbot_moveit dofbot_kinematics_fk 
+  174  roslaunch dofbot_moveit dofbot_moveit.launch 
+  175  rosnode list
+  176  rostopic list
+  177  rosservice list
+  178  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  179    seq: 0
+  180    stamp:
+  181      secs: 0
+  182      nsecs: 0
+  183    frame_id: ''
+  184  pose:
+  185    position:
+  186      x: 0.0
+  187      y: 0.0
+  188      z: 0.0
+  189    orientation:
+  190      x: 0.0
+  191      y: 0.0
+  192      z: 0.0
+  193      w: 0.0" 
+  194  git
+  195  git vonfig //global /e
+  196  git vonfig --global -e
+  197  git config --global -e
+  198  cd dofbot_ws/
+  199  cd src/
+  200  ll
+  201  git init
+  202  git status
+  203  git add .
+  204  git commit -m "Dofbot original code"
+  205  git branch -l
+  206  git branch -M main
+  207  git branch -l
+  208  git remote add origin https://github.com/rivascf/yahboom-dofbot.git
+  209  git push -u origin main
+  210  cd
+  211  ll
+  212  vim .bashrc
+  213  history
+  214  rosrun dofbot_moveit 02_motion_plan.py
+  215  roslaunch dofbot_moveit dofbot_moveit.launch 
+  216  history >> history_bk_181023.txt
